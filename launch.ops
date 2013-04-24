@@ -1,0 +1,8 @@
+import("rtt_rosnode")
+import("rtt_std_msgs")
+import("rtt_ros_talker_test")
+
+loadComponent("talker", "Rtt_ros_talker_test")
+
+stream("talker.dbl", ros.topic("/rttdbl"))
+stream("talker.str", ros.topic("/rttstr"))

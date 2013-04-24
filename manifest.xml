@@ -1,0 +1,11 @@
+<package>
+    <description brief="Orocos rtt_ros_talker_test Component package">
+        This package contains the components of the rtt_ros_talker_test package
+    </description>
+    <!--NOTE: set the license and author before you publish this code-->
+    <license></license>
+    <author>Unknown Author</author>
+    <depend package="rtt" />
+    <depend package="rtt_std_msgs" />
+</package>
+
